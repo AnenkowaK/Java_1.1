@@ -7,15 +7,18 @@
 На тестирование затрачено: 4 часа
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/AnenkowaK/Java_1.1/issues/1#issue-963229736
-* https://github.com/AnenkowaK/Java_1.1/issues/2#issue-963231560
+* [Приложение Credit Card Number Validator не работает с кредитными картами, номера которых более 16 цифр](https://github.com/AnenkowaK/Java_1.1/issues/1#issue-963229736)
+
+* [Приложение Credit Card Number Validator не работает с кредитными картами, номера которых 15 цифр](https://github.com/AnenkowaK/Java_1.1/issues/2#issue-963231560)
 
 
 ## Описание процесса тестирования
 
+
 В процессе тестирования использовались следующие артефакты:
 1. Постановка задачи
 2. Генератор номеров кредитных карт и валидатор: https://www.freeformatter.com/credit-card-number-generator-validator.html#fakeNumbers
+
 
 В качестве тестовых данных использовались данные:
 
@@ -34,3 +37,4 @@
 Тестирование производилось в следующем окружении:
 * Windows 10, 64-разрядная ОС, сборка 19041.1110
 * openjdk version "11.0.11" 2021-04-20
+
